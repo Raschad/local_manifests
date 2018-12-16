@@ -13,7 +13,7 @@ Then
     
 initialize repo:
 
-    repo init -u git://github.com/DotOS/manifest.git -b dot-o
+    repo init -u git://github.com/DotOS/manifest.git -b dot-n
     
 sync repo:
 
@@ -27,7 +27,7 @@ download manifest:
 
 sync repo:
 
-    $ repo sync  -f --force-sync --no-clone-bundle
+    $ repo sync  -f -j16 --force-sync --no-clone-bundle
 
 build DotOS
 build:
