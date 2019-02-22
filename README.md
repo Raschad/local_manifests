@@ -10,7 +10,7 @@ create local_manifests
 
     mkdir .repo/local_manifests
     
-    curl https://raw.githubusercontent.com/raschad/local_manifests/aex-n/roomservice.xml > ~/aosp/.repo/local_manifests/roomsrvice.xml
+    curl https://raw.githubusercontent.com/raschad/local_manifests/aex-n/roomservice.xml > ~/aosp/.repo/local_manifests/roomservice.xml
 Then to sync up:
 
     repo sync -c -j32 --force-sync --no-clone-bundle --no-tags    
