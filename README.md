@@ -1,7 +1,7 @@
 # local_manifests
 For sony rhine platform
       
-            mkdir los
-            cd los
+        mkdir aosp
+        cd aosp
       
-            curl https://raw.githubusercontent.com/raschad/local_manifests/aex-n/roomservice.xml > ~/los/.repo/local_manifests/roomsrvice.xml
+        curl https://raw.githubusercontent.com/raschad/local_manifests/aex-n/roomservice.xml > ~/aosp/.repo/local_manifests/roomsrvice.xml
