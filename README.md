@@ -2,7 +2,7 @@
 For sony rhine platform
 
 
-    mkdir los
-    cd los
+    mkdir xosp
+    cd xosp
     
-    curl https://raw.githubusercontent.com/raschad/local_manifests/cm-14.1/roomservice.xml > ~/los/.repo/local_manifests/roomsrvice.xml
+    curl https://raw.githubusercontent.com/raschad/local_manifests/xosp-n/roomservice.xml > ~/xosp/.repo/local_manifests/roomsrvice.xml
