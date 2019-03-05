@@ -9,4 +9,6 @@ For sony rhine platform
     
     mkdir local_manifests
     
-    curl https://raw.githubusercontent.com/raschad/local_manifests/xosp-n/roomservice.xml > ~/xosp/.repo/local_manifests/roomsrvice.xml
+    curl https://raw.githubusercontent.com/raschad/local_manifests/xosp-n/roomservice.xml > ~/xosp/.repo/local_manifests/roomservice.xml
+    
+    repo sync -c -f -j32 --force-sync --no-clone-bundle --no-tags
